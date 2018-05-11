@@ -21,7 +21,7 @@ public class MenuItemActivity extends AppCompatActivity {
         String itemImageUrl = intentGet.getStringExtra("itemImageUrl");
         String itemName = intentGet.getStringExtra("itemName");
         String itemCategory = intentGet.getStringExtra("itemCategory");
-        String itemDescription = intentGet.getStringExtra("itemDesciption");
+        String itemDescription = intentGet.getStringExtra("itemDescription");
         String itemPrice = intentGet.getStringExtra("itemPrice");
 
         ImageView imageMenuItem = findViewById(R.id.imageMenuItem);

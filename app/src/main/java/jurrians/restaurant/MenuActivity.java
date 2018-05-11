@@ -63,7 +63,7 @@ public class MenuActivity extends AppCompatActivity implements  MenuItemsRequest
             Intent intent = new Intent(MenuActivity.this, MenuItemActivity.class);
 
             intent.putExtra("itemCategory", itemCategory);
-            intent.putExtra("itemDesciption", itemDescription);
+            intent.putExtra("itemDescription", itemDescription);
             intent.putExtra("itemName", itemName);
             intent.putExtra("itemImageUrl", itemImageUrl);
             intent.putExtra("itemPrice", itemPrice);
